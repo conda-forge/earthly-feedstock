@@ -1,5 +1,5 @@
 {% set name = "earthly" %}
-{% set version = "0.7.15" %}
+{% set version = "0.7.16" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/earthly/earthly/archive/v{{ version }}.tar.gz
-  sha256: 90bc44e15bd207f1f5f675f658faf249d0146368cbad0839b5227c989fb77749
+  sha256: 663562b1540160ea22788b5f4f665378f0a79e2cbfc94a49b2644430cab86a3b
   folder: src
 
 build:
@@ -33,7 +33,7 @@ test:
 about:
   home: https://github.com/earthly/earthly
   license: MPL-2.0
-  license_file: 
+  license_file:
     - src/LICENSE
     - library_licenses/
   summary: Super simple build framework with fast, repeatable builds and an instantly familiar syntax
