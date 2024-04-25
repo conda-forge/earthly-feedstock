@@ -1,5 +1,5 @@
 {% set name = "earthly" %}
-{% set version = "0.8.8" %}
+{% set version = "0.8.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/earthly/earthly/archive/v{{ version }}.tar.gz
-  sha256: 9b24973e946f8a6f8ffa8353f0c9254187b24fc77cc698f48a2e8eda40a9482c
+  sha256: 8f7b835e3ad82b31b105f8561ccd65f612cf75d0f824aa97c8b4d33efb573ffc
   folder: src
 
 build:
